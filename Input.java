@@ -43,17 +43,5 @@ class Input{
             e.printStackTrace();
         }
     }
-    /*
-    public static ArrayList<Row> readCSV(String fn){
-        ArrayList<Row> data =  new ArrayList<>();
-
-        String file = readFile(fn);
-        String[] line = file.split("\n");
-        String header = line[0];
-        for(int pos = 1; pos < line.length; pos++){
-            data.add(new Row(header,line[pos]));
-        }
-        return data;
-    }*/
 
 }
